@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MeetTheTeam">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:contentDescription="@string/team_pcamp96"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pcamp96" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/empty"
+                    android:padding="25dp"
+                    android:src="@drawable/ic_separator" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/team_pcamp96"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/team_nick_pcamp96"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/role_project_lead_and_owner"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginEnd="5dp"
+                            android:contentDescription="@string/github"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_github" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:contentDescription="@string/google_plus"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_google_plus" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:contentDescription="@string/team_thenameisnigel"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/thenameisnigel" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/empty"
+                    android:padding="25dp"
+                    android:src="@drawable/ic_separator" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/team_thenameisnigel"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/team_nick_thenameisnigel"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/role_project_lead_and_owner"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginEnd="5dp"
+                            android:contentDescription="@string/github"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_github" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:contentDescription="@string/google_plus"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_google_plus" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:contentDescription="@string/team_phaseburn"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/phaseburn" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/empty"
+                    android:padding="25dp"
+                    android:src="@drawable/ic_separator" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/team_phaseburn"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/role_project_lead_and_owner"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginEnd="5dp"
+                            android:contentDescription="@string/github"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_github" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:contentDescription="@string/team_myself5"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/myself5" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/empty"
+                    android:padding="25dp"
+                    android:src="@drawable/ic_separator" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/team_myself5"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/team_nick_myself5"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/role_lead_core_team_developer"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginEnd="5dp"
+                            android:contentDescription="@string/github"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_github" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:contentDescription="@string/xda"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_xda" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:contentDescription="@string/google_plus"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_google_plus" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:contentDescription="@string/team_adinkwok"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/adinkwok" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/empty"
+                    android:padding="25dp"
+                    android:src="@drawable/ic_separator" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/team_adinkwok"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/team_nick_myself5"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/role_core_team_developer"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginEnd="5dp"
+                            android:contentDescription="@string/github"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_github" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:contentDescription="@string/xda"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_xda" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:contentDescription="@string/facebook"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_facebook" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:contentDescription="@string/google_plus"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_google_plus" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:contentDescription="@string/team_gtptich"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/gtpitch" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/empty"
+                    android:padding="25dp"
+                    android:src="@drawable/ic_separator" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/team_gtptich"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/team_nick_gtpitch"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/role_core_team_developer"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginEnd="5dp"
+                            android:contentDescription="@string/github"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_github" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:contentDescription="@string/xda"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_xda" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:contentDescription="@string/google_plus"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_google_plus" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:contentDescription="@string/team_frap129"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/frap129" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/empty"
+                    android:padding="25dp"
+                    android:src="@drawable/ic_separator" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/team_frap129"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/team_nick_frap129"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/role_core_team_developer"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginEnd="5dp"
+                            android:contentDescription="@string/github"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_github" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:contentDescription="@string/xda"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_xda" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:contentDescription="@string/google_plus"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_google_plus" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:contentDescription="@string/team_somcom3x"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/somcom3x" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/empty"
+                    android:padding="25dp"
+                    android:src="@drawable/ic_separator" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/team_somcom3x"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/team_nick_somcom3x"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/role_core_team_developer"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginEnd="5dp"
+                            android:contentDescription="@string/github"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_github" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:contentDescription="@string/xda"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_xda" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:contentDescription="@string/google_plus"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_google_plus" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

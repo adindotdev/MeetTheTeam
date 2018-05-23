@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Meet the team</string>
+    <string name="empty">empty</string>
+    <string name="github">GitHub</string>
+    <string name="xda">xda-developers</string>
+    <string name="facebook">Facebook</string>
+    <string name="google_plus">Google+</string>
+
+    <!-- Team roles -->
+    <string name="role_project_lead_and_owner">Project lead and owner</string>
+    <string name="role_lead_core_team_developer">Lead core team developer</string>
+    <string name="role_core_team_developer">Core team developer</string>
+    <string name="role_rom_developer">ROM developer</string>
+    <string name="role_maintainer">Maintainer</string>
+
+    <!-- Team members -->
+    <string name="team_pcamp96">Patrick Campanale</string>
+    <string name="team_nick_pcamp96">pcamp96</string>
+
+    <string name="team_thenameisnigel">Ryan Norris</string>
+    <string name="team_nick_thenameisnigel">TheNameIsNigel</string>
+
+    <string name="team_phaseburn">PhaseBurn</string>
+
+    <string name="team_myself5">Christian Oder</string>
+    <string name="team_nick_myself5">Myself5</string>
+
+    <string name="team_adinkwok">Adin Kwok</string>
+    <string name="team_nick_adinkwok">adinkwok</string>
+
+    <string name="team_gtptich">Brett Montague</string>
+    <string name="team_nick_gtpitch">gtpitch</string>
+
+    <string name="team_frap129">Joe Maples</string>
+    <string name="team_nick_frap129">frap129</string>
+
+    <string name="team_somcom3x">Rabih Salamey</string>
+    <string name="team_nick_somcom3x">somcom3x</string>
+</resources>
